@@ -1,1 +1,1 @@
-# bbpl-mysql-php7.4-yii2
+# bbpl-php7.4-yii2
