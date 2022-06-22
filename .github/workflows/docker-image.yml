@@ -21,4 +21,4 @@ jobs:
       run:
         docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
     - name: Push the Docker image
-      run: docker push --file Dockerfile --tag callao/bbpl-php7.4-yii2:$(date +%s)
+      run: docker push ${{secrets.DOCKER_USER}}/bbpl-php7.4-yii2:$(date +%s)
